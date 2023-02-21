@@ -11,9 +11,9 @@ def shape(angle,side,lim):
     side=side+2
     if side <  lim:
         shape(angle,side,lim)
-angle=int(input("enter the angle"))
-side=int(input("enter the side"))
-lim=int(input("enter the lim"))
+angle=int(input("enter the angle"))#119
+side=int(input("enter the side"))#9
+lim=int(input("enter the lim"))#500
 shape(angle,side,lim)
 t.done()
 
